@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T08:45:01.260Z",
+  "generated_at": "2026-10-12T08:45:03.672Z",
   "items": {
     "math:7": {
       "kind": "math",
@@ -22,6 +22,119 @@
       "path": "math/0009-matrix-basics",
       "first_solved_at": "2026-10-06T13:58:07.442Z",
       "last_pushed_at": "2026-10-06T13:58:07.442Z"
+    },
+    "math:10": {
+      "kind": "math",
+      "id": "10",
+      "title": "Matrix Multiplication",
+      "difficulty": "medium",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/math-problems/10",
+      "path": "math/0010-matrix-multiplication",
+      "first_solved_at": "2026-10-07T09:11:14.332Z",
+      "last_pushed_at": "2026-10-07T09:11:14.332Z"
+    },
+    "math:8": {
+      "kind": "math",
+      "id": "8",
+      "title": "Vector Norms and Linear Independence",
+      "difficulty": "medium",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/math-problems/8",
+      "path": "math/0008-vector-norms-and-linear-independence",
+      "first_solved_at": "2026-10-07T09:21:15.105Z",
+      "last_pushed_at": "2026-10-07T09:21:15.105Z"
+    },
+    "problem:121": {
+      "kind": "problem",
+      "id": "121",
+      "title": "Vector Element-wise Sum",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/121",
+      "path": "problems/0121-vector-element-wise-sum",
+      "first_solved_at": "2026-10-07T09:38:58.907Z",
+      "last_pushed_at": "2026-10-07T09:38:58.907Z",
+      "language": "python",
+      "lines": 10
+    },
+    "problem:83": {
+      "kind": "problem",
+      "id": "83",
+      "title": "Dot Product Calculator",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/83",
+      "path": "problems/0083-dot-product-calculator",
+      "first_solved_at": "2026-10-07T09:42:30.395Z",
+      "last_pushed_at": "2026-10-07T09:42:30.395Z",
+      "language": "python",
+      "lines": 18
+    },
+    "problem:328": {
+      "kind": "problem",
+      "id": "328",
+      "title": "Vector Norms (L1/L2/L-inf) and the Frobenius Norm",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/328",
+      "path": "problems/0328-vector-norms-l1-l2-l-inf-and-the-frobenius-norm",
+      "first_solved_at": "2026-10-07T09:58:58.742Z",
+      "last_pushed_at": "2026-10-07T09:58:58.742Z",
+      "language": "python",
+      "lines": 34
+    },
+    "problem:76": {
+      "kind": "problem",
+      "id": "76",
+      "title": "Calculate Cosine Similarity Between Vectors",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/76",
+      "path": "problems/0076-calculate-cosine-similarity-between-vectors",
+      "first_solved_at": "2026-10-07T11:04:05.665Z",
+      "last_pushed_at": "2026-10-07T11:04:05.665Z",
+      "language": "python",
+      "lines": 24
+    },
+    "problem:2": {
+      "kind": "problem",
+      "id": "2",
+      "title": "Transpose of a Matrix",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/2",
+      "path": "problems/0002-transpose-of-a-matrix",
+      "first_solved_at": "2026-10-07T11:17:49.128Z",
+      "last_pushed_at": "2026-10-07T11:17:49.128Z",
+      "language": "python",
+      "lines": 13
+    },
+    "problem:5": {
+      "kind": "problem",
+      "id": "5",
+      "title": "Scalar Multiplication of a Matrix",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/5",
+      "path": "problems/0005-scalar-multiplication-of-a-matrix",
+      "first_solved_at": "2026-10-07T11:24:54.239Z",
+      "last_pushed_at": "2026-10-07T11:24:54.239Z",
+      "language": "python",
+      "lines": 2
+    },
+    "problem:1": {
+      "kind": "problem",
+      "id": "1",
+      "title": "Matrix-Vector Dot Product",
+      "difficulty": "easy",
+      "category": "Linear Algebra",
+      "url": "https://www.deep-ml.com/problems/1",
+      "path": "problems/0001-matrix-vector-dot-product",
+      "first_solved_at": "2026-10-07T12:27:13.385Z",
+      "last_pushed_at": "2026-10-07T12:27:13.385Z",
+      "language": "python",
+      "lines": 9
     }
   }
 }
