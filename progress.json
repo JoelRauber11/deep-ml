@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T14:47:24.552Z",
+  "generated_at": "2026-10-12T20:11:28.185Z",
   "items": {
     "math:7": {
       "kind": "math",
@@ -170,6 +170,19 @@
       "path": "math/0005-gradient-descent-updates",
       "first_solved_at": "2026-10-12T14:47:23.860Z",
       "last_pushed_at": "2026-10-12T14:47:23.860Z"
+    },
+    "problem:116": {
+      "kind": "problem",
+      "id": "116",
+      "title": "Derivative of a Polynomial",
+      "difficulty": "easy",
+      "category": "Calculus",
+      "url": "https://www.deep-ml.com/problems/116",
+      "path": "problems/0116-derivative-of-a-polynomial",
+      "first_solved_at": "2026-10-12T20:11:27.678Z",
+      "last_pushed_at": "2026-10-12T20:11:27.678Z",
+      "language": "python",
+      "lines": 5
     }
   }
 }
