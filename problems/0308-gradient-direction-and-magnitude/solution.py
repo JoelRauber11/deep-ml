@@ -12,15 +12,17 @@ def gradient_direction_magnitude(gradient: list) -> dict:
 			}	
 
 		#mag = np.sqrt(np.array([x ** 2 for x in gradient]).sum())
-		mag = np.sqrt((gradient**2).sum())
+		#mag = np.sqrt((gradient**2).sum())
+		mag = np.linalg.norm(gradient)
 
-		direction = [x / mag for x in gradient]
-		d_dir = [-(x / mag) for x in gradient]
+		#direction = [x / mag for x in gradient]
+		d = gradient / mag
+		#d_dir = [-(x / mag) for x in gradient]
 	else:
 		raise ValueError("List is empty")
 
 	return {
 		'magnitude': mag,
-		'direction': direction,
-		'descent_direction': d_dir
+		'direction': d.tolist(),
+		'descent_direction': (-d).tolist()
 	}
