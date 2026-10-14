@@ -11,7 +11,8 @@ def gradient_direction_magnitude(gradient: list) -> dict:
 				'descent_direction': np.zeros(gradient.shape)
 			}	
 
-		mag = np.sqrt(np.array([x ** 2 for x in gradient]).sum())
+		#mag = np.sqrt(np.array([x ** 2 for x in gradient]).sum())
+		mag = np.sqrt((gradient**2).sum())
 
 		direction = [x / mag for x in gradient]
 		d_dir = [-(x / mag) for x in gradient]
